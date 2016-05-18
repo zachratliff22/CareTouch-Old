@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:minWidth="300dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_margin="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/rounded_title"
+        android:textSize="20dp"
+        android:typeface="serif"
+        android:text="Loading Information..."
+        android:singleLine="false"/>
+
+    <!--
+    <View
+        android:layout_marginBottom="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="@color/red" />
+        -->
+
+    <TextView
+        android:layout_gravity="center"
+        android:id="@+id/active"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textColor="@android:color/black"
+        android:textSize="17dp"
+        android:typeface="serif"
+        android:text=""/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_local_restaurant_72dp"
+            android:backgroundTint="@color/red"
+            android:layout_margin="15dp"
+            android:textColor="@color/red"
+            android:textSize="20dp"
+            android:typeface="serif"
+            />
+
+
+        <Button
+            android:id="@+id/button_food"
+            android:layout_weight="0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_button"
+            android:textSize="30dp"
+            android:textColor="@color/red"
+            android:minHeight="0dp"
+            android:minWidth="0dp"
+            android:maxHeight="100dp"
+            android:maxWidth="100dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="center"
+            android:text="-"/>
+
+    </LinearLayout>
+
+    <!--
+    <TextView
+        android:id="@+id/get_directions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:text="\n\nGET DIRECTIONS"
+        android:paddingLeft="25dp"
+        android:paddingBottom="5dp"
+        android:textStyle="italic"
+        android:textSize="10dp"/>
+     -->
+
+
+
+
+</LinearLayout>

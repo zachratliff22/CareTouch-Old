@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:caretouch="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/refresh" android:title="refresh" caretouch:showAsAction="always" android:icon="@drawable/ic_refresh"></item>
+</menu>

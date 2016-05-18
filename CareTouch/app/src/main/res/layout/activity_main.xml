@@ -1,0 +1,66 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent">
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="eubank_ratliff.caretouch.MainActivity">
+
+
+    </fragment>
+
+    <RelativeLayout
+        android:id="@+id/intro_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/red">
+        <ImageView
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:id="@+id/intro_slides"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/intro1"
+            android:scaleType="centerCrop"
+            />
+
+    </RelativeLayout>
+
+
+
+
+    <AutoCompleteTextView
+        android:id="@+id/autocomplete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_edittext"
+        android:layout_margin="10dp"
+        android:textColor="@color/red"
+        android:textColorHint="@android:color/holo_red_light"
+        android:padding="5dp"
+        android:cursorVisible="true"
+        android:hint="Search by city"/>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id">
+    </com.google.android.gms.ads.AdView>
+
+
+</RelativeLayout>
+
+
+
+
